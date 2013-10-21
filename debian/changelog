@@ -4,12 +4,14 @@ debathena-thirdparty-libraries (1.0.6) unstable; urgency=low
   * Switch from control.in to control (Trac: #561)
   * Bump Standards-Version to 3.9.3
   * Bump compat level to 7
+  * Depend on fuse (>= 2.8.5-2) in preference to fuse-utils for newer
+    suites
 
   [ Alexander Chernyakhovsky ]
   * Add git-buildpackage configuration
   * Set source format to 3.0 (native)
 
- -- Alexander Chernyakhovsky <achernya@mit.edu>  Sun, 29 Sep 2013 05:27:07 -0400
+ -- Jonathan Reed <jdreed@mit.edu>  Mon, 21 Oct 2013 09:42:19 -0400
 
 debathena-thirdparty-libraries (1.0.5) unstable; urgency=low
 
